@@ -1,0 +1,58 @@
+#menu {
+	position: repeat;
+	top			:10px;
+	left		:40;
+	width		:1500px;
+	height		:10vh;
+	background-color	: #f35a34 ;
+	display: flex;
+
+}
+#menu ul {
+	padding		:10px;
+	margin		:0px;
+	list-style	:none;
+	float: right;
+	
+}
+#menu ul li {
+	float		:left;
+	padding		:10px;
+	text-decoration	:none;
+	display		:block;
+}
+#menu ul li a:hover{
+	background-color :yellow;
+
+}
+#menu ul li a{
+			color: white;
+			text-transform: uppercase;
+}
+#banner{
+	height: 60vh;
+	width: 1500px;
+	background-color:  #652424 ;
+	background-size: contain;
+	position: relative;
+	display: flex;
+}
+#link{
+	padding		:10px;
+	margin		:20px;
+	width		:160px;
+	left		:40;
+	background-color: #f6ddcc;
+}
+#link ul li a:hover{
+			background-color :yellow;
+}
+#Footer{
+	position: repeat;
+	height: 20px;
+	padding: 20px;
+	width: 1300px;
+	left		:40;
+	background-color:   #FFC300  ;
+	color:   #232221  ;
+	text-align: center;
